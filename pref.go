@@ -1,2 +1,4 @@
 package preferences
 
+func test() {
+}
