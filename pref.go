@@ -40,5 +40,5 @@ func SaveJsonFile(appName, fileName string, v interface{}) error {
 	if err != nil {
 		return err
 	}
-	return ioutil.WriteFile(filepath.Join(dir, fileName), blob, 600)
+	return ioutil.WriteFile(filepath.Join(dir, fileName), blob, 0660)
 }
