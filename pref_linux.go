@@ -6,6 +6,7 @@ package preferences
 
 import (
 	"os"
+	"path/filepath"
 )
 
 func AppDataDir(appName string) string {
