@@ -1,5 +1,4 @@
 // +build !ci
-
 // +build android mobile
 
 package preferences

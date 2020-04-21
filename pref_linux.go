@@ -1,6 +1,5 @@
-// +build !ci
-
-// +build linux,freebsd,openbsd,netbsd
+// +build linux openbsd freebsd netbsd
+// +build !android
 
 package preferences
 
