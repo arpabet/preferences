@@ -3,5 +3,5 @@
 package preferences
 
 func AppDataDir(appName string) string {
-	return filepath.Join("/tmp", groupName, appName)
+	return filepath.Join("/tmp", GroupName, appName)
 }

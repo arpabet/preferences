@@ -6,6 +6,6 @@ package preferences
 import "path/filepath"
 
 func AppDataDir(appName string) string {
-	return filepath.Join("/data", "data", groupName, appName)
+	return filepath.Join("/data", "data", GroupName, appName)
 }
 

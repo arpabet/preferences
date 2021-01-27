@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 )
 
-const (
-	groupName = "Arpabet"
+var (
+	GroupName = "Arpabet"
 )
 
 func MakeAppDataDir(appName string) (string, error) {

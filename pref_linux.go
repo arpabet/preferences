@@ -10,5 +10,5 @@ import (
 
 func AppDataDir(appName string) string {
 	homeDir, _ := os.UserHomeDir()
-	return filepath.Join(homeDir, ".config", groupName, appName)
+	return filepath.Join(homeDir, ".config", GroupName, appName)
 }

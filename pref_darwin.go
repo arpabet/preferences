@@ -10,6 +10,6 @@ import (
 
 func AppDataDir(appName string) string {
 	homeDir, _ := os.UserHomeDir()
-	return filepath.Join(homeDir, "Library", "Preferences", groupName, appName)
+	return filepath.Join(homeDir, "Library", "Preferences", GroupName, appName)
 }
 
